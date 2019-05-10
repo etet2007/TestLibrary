@@ -63,15 +63,10 @@ public class Monitor {
             }
         }
     };
+
     //当前fragment是否为显示界面
     private boolean isFragmentStart = false;
 
-    //	public  static boolean isCollectMode() {
-    //		return collectMode;
-    //	}
-    //	public  static void setCollectMode(boolean collect) {
-    //		collectMode = collect;
-    //	}
     private TouchHandle mTouchHandle;
 
     private Monitor() {
